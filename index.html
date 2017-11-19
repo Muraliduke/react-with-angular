@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="angularMFRP">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CI eZ Deals</title>
+  
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- library script files  -->
+    <script src="assets/library/angular.min.js"></script>
+    <script src="assets/library/angular-route.min.js"></script>
+    <script src="assets/library/bootstrap.js"></script>
+
+    <!-- React Library files -->
+    <script src="assets/library/build/react.min.js"></script>
+    <script src="assets/library/build/react-dom.min.js"></script>
+    <script src="assets/library/build/react-dom-server.min.js"></script>
+    <script src="assets/library/build/react-with-addons.min.js"></script>
+    <script src="assets/library/react/JSXTransformer.js"></script>
+    <script src="assets/library/react/ngReact.js"></script>
+    
+    <!-- React Library files -->
+    <!--custom app files  -->
+  
+   <script src="app/app.js"></script>
+   <script src="hello.js"></script>
+   
+
+    
+</head>
+
+<body ng-controller='mainCtrl'>
+    {{person | json}}
+    <h1>
+        <div><react-component name="Hello" props="person"/></div>
+        <small>
+          <code>&lt;react-component name="Hello" props="person"/&gt;</code>
+        </small>
+      </h1>
+
+
+      <h2>Method 2</h2>
+      <input ng-model="nme"/></div><br>
+      ReactJS <hllo name="nme"></hello>
+ <hr>
+AngularJs: Hello, {{name}}
+
+
+LAST TRY
+
+
+
+</body>
+
+</html>
